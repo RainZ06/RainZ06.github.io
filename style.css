@@ -1,0 +1,219 @@
+body{
+    overflow-x: hidden;
+}
+.upperLine{
+    width: 100%;
+    height: 10px;
+    background-color: lightgrey;
+}
+
+.mainTitle {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+h1 { 
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.Top{
+    width: 100%;
+    display: flex;
+    height: 150px;
+}
+
+.titleHolder{
+    width: 50%
+}
+
+.toc{
+    padding-top: 15px;
+    width: 50% ;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.Title{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 40px ;
+    margin-bottom: 40px ;
+}
+
+h4 {
+    text-align:center;
+    font-family: sans-serif
+}
+.overviewWrapper {
+    width: 75%;
+    margin:auto;
+    display: flex;
+    column-gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.Question{
+    width: 900px;
+    margin:auto;
+    background-color: lightgrey;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.questionHeader{
+    margin-top: 0px;
+}
+.questionText{
+    font-size: x-large;
+}
+.Purpose{
+    height: 450px;
+    width: 400px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.learningGoals{
+    height: 450px;
+    width: 400px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.cardWrapper{
+    margin: auto;
+    width: 1000px;
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px
+}
+
+.card{
+    border: 5px outset grey; 
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.category{
+    font-size: xx-large;
+    text-align: center;   
+}
+
+li{
+    line-height: 24px;
+    font-family: sans-serif;
+}
+
+.titleImage{
+    width: 100%; height: 300px; object-fit: cover; margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+.HTMLimg{
+    width:300px;
+    height: 200px;
+    border-radius: 20px;
+    display:block;
+    margin: auto
+}
+
+.CSSimg{
+    width:500px;
+    height:500px;
+}
+
+.sourcesWrapper {
+    width: 80%;
+    margin:auto;
+    display: flex;
+    column-gap: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sourcesWrapper2{
+    width: 915px;
+    margin: auto;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 50px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+
+.sources{
+    width: 500px;
+    height: 350px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+.LearningCSS{
+    margin:auto;
+}
+
+.sourceHeader{
+    font-size: x-large;
+}
+
+
+.lessonsWrapper {
+    width: 80%;
+    margin:auto;
+    display: flex;
+    column-gap: 100px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.lessons{
+    height: 500px;
+    width: 500px;
+    background-color: lightgrey;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.htmlPic{
+    margin-top: 20px;
+    height: 540px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.lessonsHeader{
+    margin-top: 0px;
+    font-size: x-large;
+}
+
+.challengesHeader{
+    text-align: center;
+}
+
+ul{
+    margin-right: 30px;
+    margin-left: 10px;
+}
